@@ -11,7 +11,7 @@ import './index.css'
 function App() {
   const [itemsCart, setItemsCart] = useState([])
 
-  //add to cart function
+  //add to cart function //
   function addToCart(e){
    let itemToAdd = data.find(item => item.id === e.target.dataset.id)
 
